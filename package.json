@@ -3,13 +3,14 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "lint": "tsc"
+    "lint": "tsc",
+    "prepublish": "tsc"
   },
   "keywords": [],
-  "author": "",
+  "author": "SamoCodes <samirdiff@proton.me>",
   "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
@@ -18,5 +19,8 @@
   },
   "dependencies": {
     "axios": "^1.4.0"
+  },
+  "repository": {
+    "url": "https://github.com/samocodes/sync-lyrics.git"
   }
 }
