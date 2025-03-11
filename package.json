@@ -18,7 +18,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "axios": "^1.4.0"
+    "axios": "^1.8.2"
   },
   "repository": {
     "url": "https://github.com/samocodes/sync-lyrics.git"
